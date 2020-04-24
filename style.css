@@ -1,0 +1,111 @@
+body{
+	font-family: Arial;
+}
+.header{
+	height: 10vh;
+	border-bottom: solid;
+	border-color: rgb(255, 255, 255);
+	background-image: linear-gradient(to left, #5687f7 , #7856f7);
+	position: fixed;
+}
+.header img{
+	margin-top: 1vh;
+}
+.header h5{
+	margin-left: 3vh;
+	margin-top: 3.5vh;
+}
+.header button{
+	background-color: white;
+	margin-top: 2vh;
+	margin-left: 7vh;
+	border: solid;
+	border-color: white;
+	border-radius: 3vh;
+	transition: 0.3s
+	
+}
+button:hover{
+	transform: scale(1.1);
+}
+a{
+	text-decoration: none;
+	color: black;
+	transition: 0.5s;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+	transform: scale(1.05);
+}
+.content{
+	background-image: linear-gradient(to left, #5687f7 , #7856f7);
+	padding-bottom: 15vh;
+	
+}
+.joinchat{
+	margin-top: 15vh;
+	border: solid;
+	border-color: white;
+	border-radius: 3vh;
+	transition: 0.3s;
+	margin-left: 3vh;
+}
+.poisk{
+	border: none;
+	border-radius: 5vh;
+	height: 7vh;
+	width: 50vh;
+	margin-top: 5vh;
+	padding-left: 3vh;
+	padding-right: 3vh;
+	font-size: 30px;
+	background-color: #99e0ec;
+}
+::placeholder{
+	color: white;
+}
+.findbtn{
+	color: white;
+	font-size: 20px
+}
+.block{
+	height: 40vh;
+	background-color: black;
+	margin-left: 10.4vh;
+	margin-top: 10vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 5vh;
+}
+.b1{
+	background-image: url(m.jpg);
+	transition: 0.3s;
+	padding-top: 18vh; 
+}
+.b2{
+	background-image: url(v.png);
+	transition: 0.3s;
+	padding-top: 18vh; 
+}
+.b3{
+	background-image: url(p.jpg);
+	transition: 0.3s;
+	padding-top: 18vh; 
+}
+.b1:hover{
+	background-image: url(m.png);
+	transform: scale(1.05);
+}
+.b2:hover{
+	background-image: url(v.jpg);
+	transform: scale(1.05);
+}
+.b3:hover{
+	background-image: url(p.png);
+	transform: scale(1.05);
+}
+.info{
+	color: white;
+	margin-top: 10vh;
+}
